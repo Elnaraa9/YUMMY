@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    justify-content:center;
+    box-shadow: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 55px;
+    
+    li a:hover{
+        color:rgb(0, 0, 0)  ;
+    }
+    a{
+        color: #7f7f90;
+    }
+    button{
+        border:none;
+            border-radius: 50px;
+            background-color: #CE1212;
+            color: floralwhite;
+            text-align: center;
+            width: 120px;
+            height: 35px;  
+            margin-left: 35px;
+    }
+}
+.nav-item{
+    li a:active{
+        color:rgb(0, 0, 0) ;
+    }
+}
+.logo{
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+   h3{
+       font-weight: 700;
+       .dot{
+           color: #CE1212;
+           border-radius: 50%;
+       }
+   }
+}
+
+.dropdown-menu li {
+    position: relative;
+    }
+    .dropdown-menu .dropdown-deepmenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+    }
+    .dropdown-menu .dropdown-deepmenu-left {
+    right: 100%;
+    left: auto;
+    }
+    .dropdown-menu > li:hover > .dropdown-deepmenu {
+    display: block;
+    }
+    .dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+    .hover-underline-animation {
+        display: inline-block;
+        position: relative;
+        color:#CE1212;
+      }
+      
+      .hover-underline-animation:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color:#CE1212;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+      }
+      
+      .hover-underline-animation:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
+      #access{
+          background-color: #eee;
+
+      }
+      .access_summary{
+        font-family: 'Amatic SC', cursive;
+        font-weight: 700;
+        margin-top: 12%;
+        .a-text{
+            font-family: 'Inter', sans-serif;
+            font-weight: 400; 
+            color:#37373F ;
+        }
+        h3{
+            font-size: 55px;
+            font-weight: 700;
+            color:#37373F ;
+        }
+      }
+      .link{
+        font-family: 'Inter', sans-serif;
+        color: #CE1212;
+        .fa-play-circle{
+            color: #CE1212;
+            margin-left: 15px;
+            font-size: 2.1em;
+        }
+        a{
+            color: #212529;
+            margin-left: 2px;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        a:hover{
+            text-decoration: none;
+            color: #CE1212;
+        }
+        button{
+            border:none;
+            border-radius: 50px;
+            background-color: #CE1212;
+            color: floralwhite;
+            text-align: center;
+            width: 30%;
+            height: 45px;
+        }
+      }
+      .acces_image{
+          img{
+              max-width: 100%;
+             height: auto;
+             margin-top:12%;
+          }
+      }
