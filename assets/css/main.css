@@ -172,4 +172,154 @@
   height: auto;
   margin-top: 12%;
 }
+
+.menu-summary {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.menu-summary .menu-ourmn {
+  font-family: 'Open', sans-serif;
+  color: #7f7f90;
+}
+
+.menu-summary .menu-ourmn h6 {
+  font-size: 13px;
+}
+
+.menu-summary h3 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 400;
+  font-size: 50px;
+  color: #212529;
+}
+
+.menu-summary h3 span {
+  color: #CE1212;
+}
+
+.menu-summary .menu-parts {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  margin-top: 30px;
+  word-spacing: 13px;
+  color: #212529;
+  margin-bottom: 25px;
+}
+
+.menu-summary .menu-parts span {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #b6b6bf;
+          text-decoration-color: #b6b6bf;
+  text-decoration-thickness: 2px;
+  text-underline-position: under;
+}
+
+.menu-summary .menu-parts span:hover {
+  color: #CE1212;
+  -webkit-text-decoration-color: #e1e1e1;
+          text-decoration-color: #e1e1e1;
+}
+
+.menu-summary .menu-parts .active {
+  color: #CE1212;
+  -webkit-text-decoration-color: #CE1212;
+          text-decoration-color: #CE1212;
+}
+
+.menu-main {
+  font-family: 'Open', sans-serif;
+  color: #7f7f90;
+}
+
+.menu-main h6 {
+  font-size: 14px;
+}
+
+.main-head {
+  color: #CE1212;
+  font-family: 'Inter', sans-serif;
+}
+
+.main-head h4 {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.menu-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  padding: 0 60px;
+}
+
+.starters-summary {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.starters-summary p {
+  color: #b6b6bf;
+}
+
+.starters-summary h5 {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.starters-summary .starters-price {
+  color: #CE1212;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.book-header {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 33px;
+}
+
+.book-header p {
+  font-family: 'Open', sans-serif;
+  color: #b6b6bf;
+  letter-spacing: 1px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.book-header h2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 48px;
+  color: #212529;
+}
+
+.book-header h2 span {
+  color: #CE1212;
+}
+
+.form {
+  background: rgba(55, 55, 63, 0.04);
+}
+
+.form {
+  margin: 20px;
+  padding: 0 15px;
+}
+
+.form-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.button .btnb {
+  border: none;
+  border-radius: 50px;
+  background-color: #CE1212;
+  color: floralwhite;
+  text-align: center;
+  width: 30%;
+  height: 50px;
+  margin: 10px;
+}
 /*# sourceMappingURL=main.css.map */
